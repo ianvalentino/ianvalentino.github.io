@@ -70,7 +70,6 @@ button { /* Para la etiqueta Html */
 
 .paddingLogo {
     padding: 0;
-
 }
 
 .buttonContainer {
@@ -107,3 +106,8 @@ ul.navul {
 }
 
 /* FIN HEADER */
+
+.banner {
+    height: 854px;
+    margin-top: -60px;
+}
