@@ -1,0 +1,109 @@
+/* Principales */
+
+body {
+    font-family: 'Montserrat';
+    margin: 0px;
+}
+
+.bodyContainer {
+    width: 100%;
+}
+
+strong {
+    color:#84d701;
+}
+
+/* Header */
+
+header {
+    background-color: transparent;
+    /*padding: 0 100px;
+    height: 66px;*/
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: rgba(0,0,0);
+}
+
+.menuContainer {
+    padding-left: 7rem;
+    padding-right: 10rem;
+}
+
+.row {
+    display:flex;
+}
+
+.colLeft {
+    width: 25%;
+}
+
+.colCenter {
+    width: 50%;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.colRight {
+    width: 25%;
+    padding-right: 5rem;
+    padding-top: 15px;
+}
+
+button { /* Para la etiqueta Html */
+    background-color: transparent;
+    padding: 0 24px;
+}
+
+.boton {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-flex;
+    letter-spacing: 1px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    padding: 0 13px;
+}
+
+.paddingLogo {
+    padding: 0;
+
+}
+
+.buttonContainer {
+    position: relative;
+    margin-top: 15px;
+    margin-left: -35px;
+}
+
+.buttonContainerPadding {
+    padding-left: 155px;
+}
+
+.buttonContainerPaddingBottom {
+    padding-bottom: 300px;
+}
+
+ul.navul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.botonSecondary { /* menú secundario (koenigsegg...) */
+    color: white;
+}
+
+.botonSecondary:hover {
+    color: #84d701;
+}
+
+.siteLogo {
+    width: 5rem;
+
+}
+
+/* FIN HEADER */
